@@ -1,0 +1,152 @@
+[
+ {
+   "CCFW": "Alabama",
+   "USATodayPoll": "Alabama ",
+   "APPoll": "Alabama "
+ },
+ {
+   "CCFW": "Ohio St",
+   "USATodayPoll": "Ohio St ",
+   "APPoll": "Ohio St "
+ },
+ {
+   "CCFW": "Houston",
+   "USATodayPoll": "Clemson",
+   "APPoll": "Louisville"
+ },
+ {
+   "CCFW": "Stanford",
+   "USATodayPoll": "Louisville",
+   "APPoll": "Michigan"
+ },
+ {
+   "CCFW": "Louisville",
+   "USATodayPoll": "Michigan ",
+   "APPoll": "Clemson"
+ },
+ {
+   "CCFW": "Clemson",
+   "USATodayPoll": "Stanford",
+   "APPoll": "Houston"
+ },
+ {
+   "CCFW": "Michigan",
+   "USATodayPoll": "Houston ",
+   "APPoll": "Stanford"
+ },
+ {
+   "CCFW": "Texas A&M",
+   "USATodayPoll": "Wisconsin ",
+   "APPoll": "Wisconsin "
+ },
+ {
+   "CCFW": "Tennessee",
+   "USATodayPoll": "Washington ",
+   "APPoll": "Texas A&M "
+ },
+ {
+   "CCFW": "Wisconsin",
+   "USATodayPoll": "Texas A&M",
+   "APPoll": "Washington"
+ },
+ {
+   "CCFW": "Baylor",
+   "USATodayPoll": "Tennessee ",
+   "APPoll": "Tennessee "
+ },
+ {
+   "CCFW": "Washington",
+   "USATodayPoll": "Florida St",
+   "APPoll": "Florida St "
+ },
+ {
+   "CCFW": "Boise St",
+   "USATodayPoll": "Baylor",
+   "APPoll": "Baylor"
+ },
+ {
+   "CCFW": "W. Virginia",
+   "USATodayPoll": "Miami, FL",
+   "APPoll": "Miami, FL"
+ },
+ {
+   "CCFW": "N. Carolina",
+   "USATodayPoll": "Nebraska",
+   "APPoll": "Nebraska"
+ },
+ {
+   "CCFW": "Nebraska",
+   "USATodayPoll": "Michigan St ",
+   "APPoll": "Mississippi"
+ },
+ {
+   "CCFW": "Florida St",
+   "USATodayPoll": "Mississippi ",
+   "APPoll": "Michigan St "
+ },
+ {
+   "CCFW": "Miami, FL",
+   "USATodayPoll": "Utah ",
+   "APPoll": "Utah "
+ },
+ {
+   "CCFW": "Toledo",
+   "USATodayPoll": "TCU",
+   "APPoll": "San Diego St "
+ },
+ {
+   "CCFW": "San Diego St",
+   "USATodayPoll": "Georgia",
+   "APPoll": "TCU"
+ },
+ {
+   "CCFW": "Arkansas",
+   "USATodayPoll": "Florida",
+   "APPoll": "Arkansas "
+ },
+ {
+   "CCFW": "W. Michigan",
+   "USATodayPoll": "Arkansas",
+   "APPoll": "Texas"
+ },
+ {
+   "CCFW": "Va Tech",
+   "USATodayPoll": "N. Carolina",
+   "APPoll": "Florida"
+ },
+ {
+   "CCFW": "Utah",
+   "USATodayPoll": "San Diego St ",
+   "APPoll": "Boise St"
+ },
+ {
+   "CCFW": "Mississippi",
+   "USATodayPoll": "Texas ",
+   "APPoll": "Georgia "
+ },
+ {
+   "CCFW": "Georgia",
+   "USATodayPoll": "Iowa ",
+   "APPoll": "Arizona St"
+ },
+ {
+   "CCFW": "Arizona St",
+   "USATodayPoll": "Boise St",
+   "APPoll": "Oklahoma "
+ },
+ {
+   "CCFW": "Oklahoma",
+   "USATodayPoll": "Arizona St",
+   "APPoll": "North Dakota St "
+ },
+ {
+   "CCFW": "Air Force",
+   "USATodayPoll": "Oklahoma ",
+   "APPoll": "W. Virginia"
+ },
+ {
+   "CCFW": "Memphis",
+   "USATodayPoll": "W. Virginia",
+   "APPoll": "Va Tech"
+ }
+]

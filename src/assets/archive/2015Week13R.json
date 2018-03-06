@@ -1,0 +1,152 @@
+[
+  {
+    "CCFW":"Alabama",
+    "USATodayPoll":"Clemson ",
+    "APPoll":"Clemson "
+  },
+  {
+    "CCFW":"Oklahoma",
+    "USATodayPoll":"Alabama ",
+    "APPoll":"Alabama "
+  },
+  {
+    "CCFW":"Clemson",
+    "USATodayPoll":"Oklahoma ",
+    "APPoll":"Iowa "
+  },
+  {
+    "CCFW":"Iowa",
+    "USATodayPoll":"Iowa ",
+    "APPoll":"Oklahoma "
+  },
+  {
+    "CCFW":"Michigan St",
+    "USATodayPoll":"Michigan St",
+    "APPoll":"Michigan St "
+  },
+  {
+    "CCFW":"Ohio St",
+    "USATodayPoll":"Ohio St ",
+    "APPoll":"Ohio St"
+  },
+  {
+    "CCFW":"N. Carolina",
+    "USATodayPoll":"Stanford ",
+    "APPoll":"Stanford "
+  },
+  {
+    "CCFW":"Stanford",
+    "USATodayPoll":"N. Carolina ",
+    "APPoll":"N. Carolina "
+  },
+  {
+    "CCFW":"TCU",
+    "USATodayPoll":"Notre Dame ",
+    "APPoll":"Florida St "
+  },
+  {
+    "CCFW":"Houston",
+    "USATodayPoll":"Florida St ",
+    "APPoll":"Notre Dame "
+  },
+  {
+    "CCFW":"Mississippi",
+    "USATodayPoll":"TCU",
+    "APPoll":"TCU"
+  },
+  {
+    "CCFW":"Florida St",
+    "USATodayPoll":"Baylor ",
+    "APPoll":"Baylor"
+  },
+  {
+    "CCFW":"Notre Dame",
+    "USATodayPoll":"Northwestern ",
+    "APPoll":"Northwestern "
+  },
+  {
+    "CCFW":"Baylor",
+    "USATodayPoll":"Oklahoma St",
+    "APPoll":"Oklahoma St"
+  },
+  {
+    "CCFW":"Oklahoma St",
+    "USATodayPoll":"Oregon ",
+    "APPoll":"Florida "
+  },
+  {
+    "CCFW":"Florida",
+    "USATodayPoll":"Mississippi ",
+    "APPoll":"Oregon "
+  },
+  {
+    "CCFW":"LSU",
+    "USATodayPoll":"Houston ",
+    "APPoll":"Mississippi "
+  },
+  {
+    "CCFW":"W. Kentucky",
+    "USATodayPoll":"Florida",
+    "APPoll":"Houston"
+  },
+  {
+    "CCFW":"Temple",
+    "USATodayPoll":"Michigan",
+    "APPoll":"Michigan"
+  },
+  {
+    "CCFW":"Utah",
+    "USATodayPoll":"Temple ",
+    "APPoll":"Utah Wash St "
+  },
+  {
+    "CCFW":"Navy",
+    "USATodayPoll":"Utah",
+    "APPoll":"Temple "
+  },
+  {
+    "CCFW":"Northwestern",
+    "USATodayPoll":"Navy ",
+    "APPoll":"Navy Miss St"
+  },
+  {
+    "CCFW":"Oregon",
+    "USATodayPoll":"LSU ",
+    "APPoll":"LSU "
+  },
+  {
+    "CCFW":"Toledo",
+    "USATodayPoll":"USC ",
+    "APPoll":"USC"
+  },
+  {
+    "CCFW":"UCLA",
+    "USATodayPoll":"Wisconsin",
+    "APPoll":"Wisconsin "
+  },
+  {
+    "CCFW":"BYU",
+    "USATodayPoll":"Georgia",
+    "APPoll":"Georgia"
+  },
+  {
+    "CCFW":"Michigan",
+    "USATodayPoll":"W. Kentucky",
+    "APPoll":"W. Kentucky"
+  },
+  {
+    "CCFW":"B. Green",
+    "USATodayPoll":"BYU",
+    "APPoll":"UCLA"
+  },
+  {
+    "CCFW":"Memphis",
+    "USATodayPoll":"Arkansas",
+    "APPoll":"San Diego St"
+  },
+  {
+    "CCFW":"USC",
+    "USATodayPoll":"Tennessee",
+    "APPoll":"Memphis"
+  }
+]

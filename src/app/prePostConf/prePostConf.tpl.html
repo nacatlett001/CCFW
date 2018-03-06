@@ -1,0 +1,35 @@
+<center>
+    <br>
+    <h3>Predicted 2015 Post-Season Conference Standings</h3>
+    <br>
+    <div ng-repeat="entry in preInfo.prePostConf">
+        <table ng-if="entry.NumDivisions === 2" id="records">
+            <tr><td colspan="13">{{entry.ConfName}}:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Champion: {{entry.Champ}}</td></tr>
+            <tr>
+                <td colspan="2">{{entry.Divisions[0]}}</td><td id="gap1"></td><td>Overall</td><td id="gap1"></td><td>Conf</td>
+                <td id="gap2"></td>
+		<td colspan="2">{{entry.Divisions[1]}}</td><td id="gap1"></td><td>Overall</td><td id="gap1"></td><td>Conf</td>
+            </tr>
+            <tr ng-repeat="pos in entry.Ranks">
+                <td>{{pos.A[0]}}</td><td>{{pos.A[1]}}</td><td id="gap1"></td><td>{{pos.A[2]}}</td><td id="gap1"></td><td>{{pos.A[3]}}</td>
+                <td id="gap2"></td>
+                <td>{{pos.B[0]}}</td><td>{{pos.B[1]}}</td><td id="gap1"></td><td>{{pos.B[2]}}</td><td id="gap1"></td><td>{{pos.B[3]}}</td>
+            </tr>
+        </table>
+        <table ng-if="entry.NumDivisions === 1 && entry.ConfName !== 'Independents'" id="records">
+            <tr><td colspan="6">{{entry.ConfName}}:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Champion: {{entry.Champ}}</td></tr>
+            <tr><td colspan="3"></td><td>Overall</td><td id="gap1"></td><td>Conf</td></tr>
+            <tr ng-repeat="pos in entry.Ranks">
+                <td>{{pos[0]}}</td><td>{{pos[1]}}</td><td id="gap1"></td><td>{{pos[2]}}</td><td id="gap1"></td><td>{{pos[3]}}</td>
+            </tr>
+        </table>
+        <table ng-if="entry.NumDivisions === 1 && entry.ConfName === 'Independents'" id="records">
+            <tr><td colspan="4">{{entry.ConfName}}</td></tr>
+            <tr><td colspan="3"></td><td>Overall</td></tr>
+            <tr ng-repeat="pos in entry.Ranks">
+                <td>{{pos[0]}}</td><td>{{pos[1]}}</td><td id="gap1"></td><td>{{pos[2]}}</td>
+            </tr>
+        </table>
+        <br>
+    </div>
+</center>

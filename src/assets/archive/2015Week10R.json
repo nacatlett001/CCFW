@@ -1,0 +1,152 @@
+[
+  {
+    "CCFW":"Alabama",
+    "USATodayPoll":"Clemson ",
+    "APPoll":"Ohio St"
+  },
+  {
+    "CCFW":"Clemson",
+    "USATodayPoll":"Ohio St ",
+    "APPoll":"Clemson "
+  },
+  {
+    "CCFW":"Ohio St",
+    "USATodayPoll":"Alabama",
+    "APPoll":"Baylor "
+  },
+  {
+    "CCFW":"Oklahoma St",
+    "USATodayPoll":"Baylor ",
+    "APPoll":"Alabama "
+  },
+  {
+    "CCFW":"Stanford",
+    "USATodayPoll":"Oklahoma St ",
+    "APPoll":"Oklahoma St"
+  },
+  {
+    "CCFW":"Baylor",
+    "USATodayPoll":"Notre Dame ",
+    "APPoll":"Notre Dame "
+  },
+  {
+    "CCFW":"Oklahoma",
+    "USATodayPoll":"Stanford",
+    "APPoll":"Stanford"
+  },
+  {
+    "CCFW":"Florida",
+    "USATodayPoll":"Iowa",
+    "APPoll":"Iowa "
+  },
+  {
+    "CCFW":"LSU",
+    "USATodayPoll":"LSU",
+    "APPoll":"LSU"
+  },
+  {
+    "CCFW":"Iowa",
+    "USATodayPoll":"Utah",
+    "APPoll":"Florida "
+  },
+  {
+    "CCFW":"Notre Dame",
+    "USATodayPoll":"Florida",
+    "APPoll":"Oklahoma "
+  },
+  {
+    "CCFW":"Utah",
+    "USATodayPoll":"Oklahoma",
+    "APPoll":"TCU"
+  },
+  {
+    "CCFW":"Houston",
+    "USATodayPoll":"TCU",
+    "APPoll":"Utah"
+  },
+  {
+    "CCFW":"TCU",
+    "USATodayPoll":"Michigan St",
+    "APPoll":"Michigan St"
+  },
+  {
+    "CCFW":"N. Carolina",
+    "USATodayPoll":"Michigan ",
+    "APPoll":"Michigan "
+  },
+  {
+    "CCFW":"Michigan St",
+    "USATodayPoll":"Houston",
+    "APPoll":"Houston "
+  },
+  {
+    "CCFW":"UCLA",
+    "USATodayPoll":"N. Carolina ",
+    "APPoll":"N. Carolina"
+  },
+  {
+    "CCFW":"Michigan",
+    "USATodayPoll":"UCLA",
+    "APPoll":"UCLA "
+  },
+  {
+    "CCFW":"Miss St",
+    "USATodayPoll":"Florida St ",
+    "APPoll":"Florida St "
+  },
+  {
+    "CCFW":"Navy",
+    "USATodayPoll":"Miss St ",
+    "APPoll":"Miss St "
+  },
+  {
+    "CCFW":"Mississippi",
+    "USATodayPoll":"Temple",
+    "APPoll":"Temple "
+  },
+  {
+    "CCFW":"Temple",
+    "USATodayPoll":"Navy",
+    "APPoll":"Wisconsin"
+  },
+  {
+    "CCFW":"B. Green",
+    "USATodayPoll":"Wisconsin",
+    "APPoll":"Navy"
+  },
+  {
+    "CCFW":"Boise St",
+    "USATodayPoll":"Northwestern",
+    "APPoll":"Northwestern "
+  },
+  {
+    "CCFW":"Memphis",
+    "USATodayPoll":"Memphis",
+    "APPoll":"Memphis"
+  },
+  {
+    "CCFW":"Wisconsin",
+    "USATodayPoll":"USC",
+    "APPoll":"USC"
+  },
+  {
+    "CCFW":"Florida St",
+    "USATodayPoll":"BYU",
+    "APPoll":"BYU"
+  },
+  {
+    "CCFW":"Toledo",
+    "USATodayPoll":"Mississippi",
+    "APPoll":"Mississippi "
+  },
+  {
+    "CCFW":"USC",
+    "USATodayPoll":"Texas A&M",
+    "APPoll":"Oregon"
+  },
+  {
+    "CCFW":"BYU",
+    "USATodayPoll":"Boise St",
+    "APPoll":"Wash St"
+  }
+]

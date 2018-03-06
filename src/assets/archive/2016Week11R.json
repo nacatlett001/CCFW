@@ -1,0 +1,152 @@
+[
+ {
+   "CCFW": "Alabama",
+   "USATodayPoll": "Alabama ",
+   "APPoll": "Alabama "
+ },
+ {
+   "CCFW": "Ohio St",
+   "USATodayPoll": "Ohio St ",
+   "APPoll": "Ohio St "
+ },
+ {
+   "CCFW": "Washington",
+   "USATodayPoll": "Louisville ",
+   "APPoll": "Louisville "
+ },
+ {
+   "CCFW": "Clemson",
+   "USATodayPoll": "Michigan ",
+   "APPoll": "Michigan "
+ },
+ {
+   "CCFW": "Louisville",
+   "USATodayPoll": "Clemson",
+   "APPoll": "Clemson"
+ },
+ {
+   "CCFW": "Michigan",
+   "USATodayPoll": "Wisconsin ",
+   "APPoll": "Wisconsin "
+ },
+ {
+   "CCFW": "W. Michigan",
+   "USATodayPoll": "Washington",
+   "APPoll": "Washington"
+ },
+ {
+   "CCFW": "Wisconsin",
+   "USATodayPoll": "Oklahoma ",
+   "APPoll": "Oklahoma "
+ },
+ {
+   "CCFW": "Wash St",
+   "USATodayPoll": "W. Virginia ",
+   "APPoll": "Penn St"
+ },
+ {
+   "CCFW": "San Diego St",
+   "USATodayPoll": "Penn St ",
+   "APPoll": "W. Virginia "
+ },
+ {
+   "CCFW": "Oklahoma",
+   "USATodayPoll": "Utah ",
+   "APPoll": "Utah "
+ },
+ {
+   "CCFW": "W. Virginia",
+   "USATodayPoll": "Colorado",
+   "APPoll": "Colorado"
+ },
+ {
+   "CCFW": "Oklahoma St",
+   "USATodayPoll": "Oklahoma St ",
+   "APPoll": "Oklahoma St"
+ },
+ {
+   "CCFW": "Penn St",
+   "USATodayPoll": "LSU",
+   "APPoll": "W. Michigan"
+ },
+ {
+   "CCFW": "USC",
+   "USATodayPoll": "Florida St",
+   "APPoll": "USC "
+ },
+ {
+   "CCFW": "LSU",
+   "USATodayPoll": "Auburn ",
+   "APPoll": "LSU"
+ },
+ {
+   "CCFW": "Boise St",
+   "USATodayPoll": "Nebraska",
+   "APPoll": "Florida St"
+ },
+ {
+   "CCFW": "Colorado",
+   "USATodayPoll": "Florida",
+   "APPoll": "Auburn "
+ },
+ {
+   "CCFW": "Auburn",
+   "USATodayPoll": "USC ",
+   "APPoll": "Nebraska"
+ },
+ {
+   "CCFW": "Florida St",
+   "USATodayPoll": "Wash St",
+   "APPoll": "Wash St"
+ },
+ {
+   "CCFW": "Texas A&M",
+   "USATodayPoll": "W. Michigan ",
+   "APPoll": "Florida"
+ },
+ {
+   "CCFW": "Utah",
+   "USATodayPoll": "Texas A&M ",
+   "APPoll": "Boise St"
+ },
+ {
+   "CCFW": "Troy",
+   "USATodayPoll": "Boise St ",
+   "APPoll": "Texas A&M"
+ },
+ {
+   "CCFW": "N. Carolina",
+   "USATodayPoll": "N. Carolina",
+   "APPoll": "San Diego St"
+ },
+ {
+   "CCFW": "Stanford",
+   "USATodayPoll": "San Diego St ",
+   "APPoll": "Troy "
+ },
+ {
+   "CCFW": "Tennessee",
+   "USATodayPoll": "Houston ",
+   "APPoll": "Houston"
+ },
+ {
+   "CCFW": "W. Kentucky",
+   "USATodayPoll": "Navy",
+   "APPoll": "N. Carolina "
+ },
+ {
+   "CCFW": "Toledo",
+   "USATodayPoll": "S. Florida",
+   "APPoll": "Va Tech"
+ },
+ {
+   "CCFW": "Houston",
+   "USATodayPoll": "Va Tech",
+   "APPoll": "Tennessee"
+ },
+ {
+   "CCFW": "Navy",
+   "USATodayPoll": "Troy",
+   "APPoll": "Navy"
+ }
+]

@@ -1,0 +1,114 @@
+<center>
+    <br>
+    <h3 id="predHeader" ng-if="currentPredWeek !== 'Bowls' && currentPredWeek !== 14">Week {{currentPredWeek}} Predictions from the 2015 Season</h3>
+    <h3 id="predHeader" ng-if="currentPredWeek === 14">Week 14 and Week 15 Predictions from the 2015 Season</h3>
+    <h3 id="predHeader" ng-if="currentPredWeek === 'Bowls'">Bowl Predictions from the 2015 Season</h3>
+    <br>
+</center>
+
+<p>Legend:<br>O/U: This is the line indicating the total number of points scored, predicted by Vegas<br>
+    Pk: CCFW prediction that the teams will score more points ("O") or fewer points ("U") than the line<br>
+    "*": Confidence of the CCFW prediction, 1 = low confidence, 5 = high confidence<br>
+    Line: Vegas line indicating the predicted difference between the two teams' scores; negative number means
+    the home team is predicted to win, positive means the away team is &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;predicted 
+    to win<br>
+    Pick: CCFW prediction as to which team will beat the Vegas Line<br>
+    "*": Confidence of the CCFW prediction; 1 = low confidence, 5 = high confidence</p>
+<br>
+
+<center>
+    <!--Table of buttons to apply the sorts-->
+    <table>
+        <tr>
+            <td>Sort by:</td>
+            <td><button ng-click="sortBy = ['GameDate','HomeTeam']">Game Date</button></td>
+            <td><button ng-click="sortBy = 'HomeTeam'">Home Team</button></td>
+            <td><button ng-click="sortBy = 'AwayTeam'">Away Team</button></td>
+        </tr>
+        <tr><td><br/></td></tr>
+    </table>
+
+    <!--Container table that holds all the scores on display-->
+    <table id="scores" border="1">
+        <tr>
+            <td>Game Date</td>
+            <td>Home Team</td>
+            <td>Score</td>
+            <td></td>
+            <td>Away Team</td>
+            <td>Score</td>
+            <td></td>
+            <td>O/U</td>
+            <td>Pick</td>
+            <td>*</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>Line</td>
+            <td colspan="2">Pick</td>
+            <td>*</td>
+            <td></td>
+            <td colspan="3">Final Score</td>
+        </tr>
+        <tr ng-repeat="x in homeTeams | orderBy: sortBy">
+            <td>{{ x.GameDate }}</td>
+            <td>{{ x.HomeTeam }}</td>
+            <td>{{ x.HomeScore }}</td>
+            <td> - </td>
+            <td>{{ x.AwayTeam }}</td>
+            <td>{{ x.AwayScore }}</td>
+            <td></td>
+            <td>{{ x.OverUnder }}</td>
+            <td>{{ x.OUPick }}</td>
+            <td>{{ x.OUStar }}</td>
+            <td>{{ x.Line }}</td>
+            <td>{{ x.LinePick }}</td>
+            <td>{{ x.IsPositive }}</td>
+            <td>{{ x.LineDiff }}</td>
+            <td>{{ x.LineStar }}</td>
+            <td></td>
+            <td>{{ x.HomeFinal }}</td>
+            <td style="width: 12px;"> - </td>
+            <td>{{ x.AwayFinal }}</td>
+        </tr>
+    </table>
+    
+    <!--Table to navigate through the weeks-->
+    <table>
+        <tr>
+            <td>
+                <button ng-if="currentPredWeek !== 1 && currentPredWeek !== 'Bowls'" ng-click="gotoTop(currentPredWeek - 1)">Week #{{currentPredWeek - 1}}</button>
+                <button ng-if="currentPredWeek === 1" ng-disabled="true">Week #1</button>
+                <button ng-if="currentPredWeek === 'Bowls'" ng-click="gotoTop(14)">Week #14/15</button>
+            </td>
+            <td>
+                <p>Go To:
+                    <select>
+                        <option ng-click="gotoTop(1)">Week #1</option>
+                        <option ng-click="gotoTop(2)">Week #2</option>
+                        <option ng-click="gotoTop(3)">Week #3</option>
+                        <option ng-click="gotoTop(4)">Week #4</option>
+                        <option ng-click="gotoTop(5)">Week #5</option>
+                        <option ng-click="gotoTop(6)">Week #6</option>
+                        <option ng-click="gotoTop(7)">Week #7</option>
+                        <option ng-click="gotoTop(8)">Week #8</option>
+                        <option ng-click="gotoTop(9)">Week #9</option>
+                        <option ng-click="gotoTop(10)">Week #10</option>
+                        <option ng-click="gotoTop(11)">Week #11</option>
+                        <option ng-click="gotoTop(12)">Week #12</option>
+                        <option ng-click="gotoTop(13)">Week #13</option>
+                        <option ng-click="gotoTop(14)">Week #14/15</option>
+                        <option ng-click="gotoTop('Bowls')">Bowls</option>
+                    </select>
+                </p>
+            </td>
+            <td>
+                <button ng-if="currentPredWeek === 'Bowls' || (currentPredWeek === 14 && currentWeek !== 14)" disabled="true">Bowls</button>
+                <button ng-if="currentPredWeek === 14 && currentWeek === 14" ng-click="gotoTop('Bowls')">Bowls</button>
+                <button ng-if="currentPredWeek === 13 && currentWeek === 12" disabled="true">Week #14/15</button>
+                <button ng-if="currentPredWeek === 13 && currentWeek !== 12" ng-click="gotoTop(14)">Week #14/15</button>
+                <button ng-if="currentPredWeek <= 12" ng-disabled="currentPredWeek === currentWeek + 1" ng-click="gotoTop(currentPredWeek + 1)">Week #{{currentPredWeek + 1}}</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+</center>

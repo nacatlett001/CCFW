@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="ccfw" ng-controller="AppCtrl">
+    <head>
+        <title ng-bind="pageTitle"></title>
+
+        <!-- font awesome from BootstrapCDN -->
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+        <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
+
+        <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
+        <script type="text/javascript" src="<%= file %>"></script><% }); %>
+    </head>
+
+    <body>
+        <div class="row" id="header">
+            <div class="col-md-6 col-md-offset-3">
+                <img src="assets/football.png"><img src="assets/title.png"><img id="rev" src="assets/football.png">
+                <br>
+            </div>
+            <div>
+                <div class="col-md-10 col-md-offset-1" id="topMenu">
+                    <div class="col-md-2">
+                        <a href ui-sref="home" class="buttonLink">
+                            <div>HOME</div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 dropdown">
+                        <a href class="dropdown-toggle buttonLink" data-toggle="dropdown">
+                            PRESEASON <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu my-dropdown">
+                            <li><a href ui-sref="preRankings">FBS Preseason Rankings</a></li>
+                            <li><a href ui-sref="prePost30">Post-Season Top 30</a></li>
+                            <li><a href ui-sref="prePostConf">Post-Season Conference Standings</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <a href ui-sref="predictions" class="buttonLink">
+                            <div>PREDICTIONS</div>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href ui-sref="records" class="buttonLink">
+                            <div>RECORDS</div>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a ui-sref="rankings" class="buttonLink">
+                            <div>TOP 30 RANKINGS</div>
+                        </a>
+                    </div>
+                    <div class="col-md-2 dropdown">
+                        <a href class="dropdown-toggle buttonLink" data-toggle="dropdown">
+                            ARCHIVES <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu my-dropdown">
+                            <li><a href ui-sref="archive2015Pred">2015 Predictions</a></li>
+                            <li><a href ui-sref="archive2015Ranks">2015 Rankings</a></li>
+                            <li><a href ui-sref="archive2016Pred">2016 Predictions</a></li>
+                            <li><a href ui-sref="archive2016Ranks">2016 Rankings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"  id="underButtons">
+            <div class="col-md-2"></div>
+            <div class="col-md-8" id="midOfBody" ui-view="main"></div>
+            <div class="col-md-2"></div>
+        </div>
+    </body>
+</html>

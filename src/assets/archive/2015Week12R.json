@@ -1,0 +1,152 @@
+[
+  {
+    "CCFW":"Alabama",
+    "USATodayPoll":"Clemson ",
+    "APPoll":"Clemson "
+  },
+  {
+    "CCFW":"Clemson",
+    "USATodayPoll":"Alabama ",
+    "APPoll":"Alabama "
+  },
+  {
+    "CCFW":"Oklahoma",
+    "USATodayPoll":"Iowa",
+    "APPoll":"Iowa "
+  },
+  {
+    "CCFW":"Iowa",
+    "USATodayPoll":"Notre Dame ",
+    "APPoll":"Notre Dame "
+  },
+  {
+    "CCFW":"Michigan St",
+    "USATodayPoll":"Oklahoma ",
+    "APPoll":"Oklahoma "
+  },
+  {
+    "CCFW":"Baylor",
+    "USATodayPoll":"Michigan St ",
+    "APPoll":"Michigan St "
+  },
+  {
+    "CCFW":"Ohio St",
+    "USATodayPoll":"Baylor ",
+    "APPoll":"Baylor"
+  },
+  {
+    "CCFW":"Florida",
+    "USATodayPoll":"Ohio St ",
+    "APPoll":"Ohio St"
+  },
+  {
+    "CCFW":"Oklahoma St",
+    "USATodayPoll":"Oklahoma St",
+    "APPoll":"Florida"
+  },
+  {
+    "CCFW":"Notre Dame",
+    "USATodayPoll":"Florida",
+    "APPoll":"Oklahoma St"
+  },
+  {
+    "CCFW":"Stanford",
+    "USATodayPoll":"N. Carolina ",
+    "APPoll":"N. Carolina "
+  },
+  {
+    "CCFW":"N. Carolina",
+    "USATodayPoll":"Michigan ",
+    "APPoll":"Stanford"
+  },
+  {
+    "CCFW":"Navy",
+    "USATodayPoll":"Stanford ",
+    "APPoll":"Michigan "
+  },
+  {
+    "CCFW":"TCU",
+    "USATodayPoll":"Florida St",
+    "APPoll":"Florida St "
+  },
+  {
+    "CCFW":"Houston",
+    "USATodayPoll":"TCU",
+    "APPoll":"Navy"
+  },
+  {
+    "CCFW":"Michigan",
+    "USATodayPoll":"Navy",
+    "APPoll":"TCU"
+  },
+  {
+    "CCFW":"Mississippi",
+    "USATodayPoll":"Northwestern ",
+    "APPoll":"Northwestern "
+  },
+  {
+    "CCFW":"UCLA ",
+    "USATodayPoll":"Oregon ",
+    "APPoll":"Oregon "
+  },
+  {
+    "CCFW":"Toledo",
+    "USATodayPoll":"Mississippi ",
+    "APPoll":"Mississippi "
+  },
+  {
+    "CCFW":"Oregon",
+    "USATodayPoll":"Wash St",
+    "APPoll":"Wash St "
+  },
+  {
+    "CCFW":"Florida St ",
+    "USATodayPoll":"Houston ",
+    "APPoll":"Houston"
+  },
+  {
+    "CCFW":"Miss St",
+    "USATodayPoll":"UCLA ",
+    "APPoll":"Miss St"
+  },
+  {
+    "CCFW":"Utah",
+    "USATodayPoll":"Miss St",
+    "APPoll":"UCLA "
+  },
+  {
+    "CCFW":"Wash St",
+    "USATodayPoll":"Toledo",
+    "APPoll":"Temple "
+  },
+  {
+    "CCFW":"W. Kentucky",
+    "USATodayPoll":"Temple",
+    "APPoll":"Utah"
+  },
+  {
+    "CCFW":"LSU",
+    "USATodayPoll":"Utah",
+    "APPoll":"LSU"
+  },
+  {
+    "CCFW":"Northwestern",
+    "USATodayPoll":"Pittsburgh",
+    "APPoll":"Toledo"
+  },
+  {
+    "CCFW":"Temple",
+    "USATodayPoll":"LSU",
+    "APPoll":"Wisconsin "
+  },
+  {
+    "CCFW":"San Diego St",
+    "USATodayPoll":"Texas A&M",
+    "APPoll":"Texas A&M"
+  },
+  {
+    "CCFW":"Marshall",
+    "USATodayPoll":"Wisconsin",
+    "APPoll":"Pittsburgh"
+  }
+]

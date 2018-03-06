@@ -1,0 +1,9 @@
+<div>
+    <br>
+    <div ng-repeat="entry in blogs">
+        <h3>{{entry.week}}</h3>
+        <p id="para" ng-repeat="blurb in entry.blurb">{{blurb}}</p>
+        <p id="para" ng-repeat="i in entry.top4" ng-if="entry.top4 !== null">{{i}}</p>
+        <br><hr><br>
+    </div>
+</div>

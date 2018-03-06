@@ -1,0 +1,18 @@
+<center>
+    <br>
+    <h3>2017 Preseason Rankings (1 - 130)</h3>
+    <br>
+    <br>
+    <table>
+        <tr ng-repeat="i in preInfo.preRankings">
+            <td>#{{i.num1}} {{i.col1}}</td>
+            <td id="gap2"></td>
+            <td ng-if="i.num2 !== null">#{{i.num2}} {{i.col2}}</td>
+            <td ng-if="i.num2 === null"></td>
+            <td id="gap2"></td>
+            <td ng-if="i.num3 !== null">#{{i.num3}} {{i.col3}}</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+</center>

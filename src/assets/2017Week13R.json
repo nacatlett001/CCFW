@@ -1,0 +1,182 @@
+[
+ {
+   "CCFW": "Clemson",
+   "USATodayPoll": "Clemson",
+   "APPoll": "Clemson",
+   "CFPRanking": "Clemson"
+ },
+ {
+   "CCFW": "Oklahoma",
+   "USATodayPoll": "Oklahoma",
+   "APPoll": "Oklahoma",
+   "CFPRanking": "Auburn"
+ },
+ {
+   "CCFW": "Wisconsin",
+   "USATodayPoll": "Wisconsin",
+   "APPoll": "Wisconsin",
+   "CFPRanking": "Oklahoma"
+ },
+ {
+   "CCFW": "Auburn",
+   "USATodayPoll": "Auburn",
+   "APPoll": "Auburn",
+   "CFPRanking": "Wisconsin"
+ },
+ {
+   "CCFW": "Alabama",
+   "USATodayPoll": "Alabama",
+   "APPoll": "Alabama",
+   "CFPRanking": "Alabama"
+ },
+ {
+   "CCFW": "Georgia",
+   "USATodayPoll": "Georgia",
+   "APPoll": "Georgia",
+   "CFPRanking": "Georgia"
+ },
+ {
+   "CCFW": "Ohio St",
+   "USATodayPoll": "Ohio St",
+   "APPoll": "Miami, FL",
+   "CFPRanking": "Miami, FL"
+ },
+ {
+   "CCFW": "Miami, FL",
+   "USATodayPoll": "Miami, FL",
+   "APPoll": "Ohio St",
+   "CFPRanking": "Ohio St"
+ },
+ {
+   "CCFW": "USC",
+   "USATodayPoll": "USC",
+   "APPoll": "Penn St",
+   "CFPRanking": "Penn St"
+ },
+ {
+   "CCFW": "TCU",
+   "USATodayPoll": "Penn St",
+   "APPoll": "TCU",
+   "CFPRanking": "USC"
+ },
+ {
+   "CCFW": "Penn St",
+   "USATodayPoll": "UCF",
+   "APPoll": "USC",
+   "CFPRanking": "TCU"
+ },
+ {
+   "CCFW": "UCF",
+   "USATodayPoll": "TCU",
+   "APPoll": "UCF",
+   "CFPRanking": "Stanford"
+ },
+ {
+   "CCFW": "Washington",
+   "USATodayPoll": "Washington",
+   "APPoll": "Washington",
+   "CFPRanking": "Washington"
+ },
+ {
+   "CCFW": "Memphis",
+   "USATodayPoll": "Memphis",
+   "APPoll": "Stanford",
+   "CFPRanking": "UCF"
+ },
+ {
+   "CCFW": "Stanford",
+   "USATodayPoll": "Stanford",
+   "APPoll": "Notre Dame",
+   "CFPRanking": "Notre Dame"
+ },
+ {
+   "CCFW": "Oklahoma St",
+   "USATodayPoll": "LSU",
+   "APPoll": "Memphis",
+   "CFPRanking": "Michigan St"
+ },
+ {
+   "CCFW": "LSU",
+   "USATodayPoll": "Notre Dame",
+   "APPoll": "LSU",
+   "CFPRanking": "LSU"
+ },
+ {
+   "CCFW": "Northwestern",
+   "USATodayPoll": "Oklahoma St",
+   "APPoll": "Oklahoma St",
+   "CFPRanking": "Wash St"
+ },
+ {
+   "CCFW": "Notre Dame",
+   "USATodayPoll": "Michigan St",
+   "APPoll": "Michigan St",
+   "CFPRanking": "Oklahoma St"
+ },
+ {
+   "CCFW": "Wash St",
+   "USATodayPoll": "Northwestern",
+   "APPoll": "Northwestern",
+   "CFPRanking": "Memphis"
+ },
+ {
+   "CCFW": "San Diego St",
+   "USATodayPoll": "Va Tech",
+   "APPoll": "Wash St",
+   "CFPRanking": "Northwestern"
+ },
+ {
+   "CCFW": "Toledo",
+   "USATodayPoll": "Wash St",
+   "APPoll": "Va Tech",
+   "CFPRanking": "Va Tech"
+ },
+ {
+   "CCFW": "Michigan St",
+   "USATodayPoll": "S. Florida",
+   "APPoll": "S. Florida",
+   "CFPRanking": "Miss St"
+ },
+ {
+   "CCFW": "Va Tech",
+   "USATodayPoll": "Miss St",
+   "APPoll": "Miss St",
+   "CFPRanking": "N.C. St"
+ },
+ {
+   "CCFW": "N.C. St",
+   "USATodayPoll": "San Diego St",
+   "APPoll": "Fresno St",
+   "CFPRanking": "Fresno St"
+ },
+ {
+   "CCFW": "Louisville",
+   "USATodayPoll": "Fresno St",
+   "APPoll": "N.C. St",
+   "CFPRanking": ""
+ },
+ {
+   "CCFW": "Troy",
+   "USATodayPoll": "N.C. St",
+   "APPoll": "San Diego St",
+   "CFPRanking": ""
+ },
+ {
+   "CCFW": "Fresno St",
+   "USATodayPoll": "Boise St",
+   "APPoll": "Louisville",
+   "CFPRanking": ""
+ },
+ {
+   "CCFW": "Boise St",
+   "USATodayPoll": "Troy",
+   "APPoll": "Boise St",
+   "CFPRanking": ""
+ },
+ {
+   "CCFW": "Miss St",
+   "USATodayPoll": "Toledo",
+   "APPoll": "Toledo",
+   "CFPRanking": ""
+ }
+]

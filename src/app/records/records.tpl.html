@@ -1,0 +1,56 @@
+<center>
+    <br>
+    <div class="row" >
+        <div class="col-md-4 col-md-offset-2"><a ng-click="gotoWeekly()">Weekly Records</a></div>
+        <div class="col-md-4"><a ng-click="gotoPast()">Past Seasons' Records</a></div>
+    </div>
+    
+    <div ng-if="currentWeek !== 'Preseason'">
+        <br>
+        <br>
+        <h3 ng-if="currentYearTotal.latestWeek !== 14">2017 Season Prediction Record Through Week {{currentYearTotal.latestWeek}}</h3>
+        <h3 ng-if="currentYearTotal.latestWeek === 14">2017 Season Prediction Record Through Weeks 14 and 15</h3>
+        <br>
+        <table id="records">
+            <tr><td></td><th>Record</th><th>Percentage</th></tr>
+            <tr ng-repeat="i in currentYearTotal.data">
+                <th>{{i[0]}}</th><td>{{i[1]}}</td><td>{{i[2]}}</td>
+            </tr>
+        </table>
+        <br><br>
+        <br>
+        <h3 id="weekly">Weekly Records</h3>
+        <br>
+        <table>
+            <tr ng-repeat="i in weeklys">
+                <td class="col-md-1"></td>
+                <td class="col-md-3 col-md-offset-1" ng-repeat="j in i">
+                    <h4 class="col-md-7" align="center">Week #{{j.week}}</h4>
+                    <table id="records" style="margin-bottom: 15px;">
+                        <tr><td></td><th>Record</th><th>Percentage</th></tr>
+                        <tr ng-repeat="k in j.data">
+                            <th>{{k[0]}}</th><td>{{k[1]}}</td><td>{{k[2]}}</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <h3 id="past">Past Seasons' Records</h3>
+    <br>
+    <table style="margin-bottom: 15px;">
+        <tr ng-repeat="i in pastYears">
+            <td class="col-md-1"></td>
+            <td class="col-md-3 col-md-offset-1" ng-repeat="j in i">
+                <h4 class="col-md-7" align="center">{{j.year}}</h4>
+                <table id="records" style="margin-bottom: 15px;">
+                    <tr><td></td><th>Record</th><th>Percentage</th></tr>
+                    <tr ng-repeat="k in j.data">
+                        <th>{{k[0]}}</th><td>{{k[1]}}</td><td>{{k[2]}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</center>

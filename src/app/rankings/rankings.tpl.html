@@ -1,0 +1,56 @@
+<center>
+    <br>
+    <h3 id='predHeader' ng-if="currentRankWeek !== 'Preseason'">Top 30 after Week {{currentRankWeek}}</h3>
+    <h3 id="predHeader" ng-if="currentRankWeek === 'Preseason'">Top 30 in Preseason</h3>
+    <br>
+    
+    <table  id='Top30'>
+        <tr>
+            <td></td>
+            <td>CCFW</td>
+            <td>Coaches' Poll</td>
+            <td>AP Poll</td>
+            <td ng-if="currentRankWeek !== 'Preseason' && currentRankWeek >= 9">CFP Ranking</td>
+        </tr>
+        <tr ng-repeat='pos in ranks'>
+            <td>#{{$index + 1}}</td>
+            <td>{{pos.CCFW}}</td>
+            <td>{{pos.USATodayPoll}}</td>
+            <td>{{pos.APPoll}}</td>
+            <td ng-if="currentRankWeek !== 'Preseason' && currentRankWeek >= 9">{{pos.CFPRanking}}</td>
+        </tr>
+    </table>
+    <br>
+    <table ng-if="currentWeek !== 'Preseason'">
+        <tr>
+            <td><button ng-if="currentRankWeek === 1 || currentRankWeek === 'Preseason'" ng-disabled="currentRankWeek === 'Preseason'" ng-click="gotoTop('Preseason')">Preseason</button>
+                <button ng-if="currentRankWeek > 1" ng-click="gotoTop(currentRankWeek - 1)">Week #{{currentRankWeek - 1}}</button></td>
+            <td>
+                <p>Go To:
+                    <select>
+                        <option ng-click="gotoTop('Preseason')">Preseason</option>
+                        <option ng-click="gotoTop(1)">Week #1</option>
+                        <option ng-if="currentWeek >= 2" ng-click="gotoTop(2)">Week #2</option>
+                        <option ng-if="currentWeek >= 3" ng-click="gotoTop(3)">Week #3</option>
+                        <option ng-if="currentWeek >= 4" ng-click="gotoTop(4)">Week #4</option>
+                        <option ng-if="currentWeek >= 5" ng-click="gotoTop(5)">Week #5</option>
+                        <option ng-if="currentWeek >= 6" ng-click="gotoTop(6)">Week #6</option>
+                        <option ng-if="currentWeek >= 7" ng-click="gotoTop(7)">Week #7</option>
+                        <option ng-if="currentWeek >= 8" ng-click="gotoTop(8)">Week #8</option>
+                        <option ng-if="currentWeek >= 9" ng-click="gotoTop(9)">Week #9</option>
+                        <option ng-if="currentWeek >= 10" ng-click="gotoTop(10)">Week #10</option>
+                        <option ng-if="currentWeek >= 11" ng-click="gotoTop(11)">Week #11</option>
+                        <option ng-if="currentWeek >= 12" ng-click="gotoTop(12)">Week #12</option>
+                        <option ng-if="currentWeek >= 13" ng-click="gotoTop(13)">Week #13</option>
+                        <option ng-if="currentWeek >= 14" ng-click="gotoTop(14)">Week #14</option>
+                    </select>
+                </p>
+            </td>
+            <td><button ng-if="currentRankWeek === 'Preseason'" ng-disabled="currentRankWeek === currentWeek" ng-click="gotoTop(1)">Week #1</button>
+                <button ng-if="currentRankWeek >= 1 && currentRankWeek !== 14" ng-disabled="currentRankWeek === currentWeek" ng-click="gotoTop(currentRankWeek + 1)">Week #{{currentRankWeek + 1}}</button>
+                <button ng-if="currentRankWeek === 14" ng-disabled="currentRankWeek === 14">Week #14</button></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+</center>

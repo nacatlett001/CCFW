@@ -1,0 +1,152 @@
+[
+  {
+    "CCFW":"Ohio St",
+    "USATodayPoll":"Ohio St",
+    "APPoll":"Ohio St"
+  },
+  {
+    "CCFW":"TCU ",
+    "USATodayPoll":"TCU ",
+    "APPoll":"Michigan St "
+  },
+  {
+    "CCFW":"Michigan St",
+    "USATodayPoll":"Michigan St",
+    "APPoll":"Mississippi "
+  },
+  {
+    "CCFW":"Mississippi",
+    "USATodayPoll":"Baylor",
+    "APPoll":"TCU"
+  },
+  {
+    "CCFW":"Georgia ",
+    "USATodayPoll":"Mississippi",
+    "APPoll":"Baylor"
+  },
+  {
+    "CCFW":"Baylor",
+    "USATodayPoll":"Georgia ",
+    "APPoll":"Notre Dame "
+  },
+  {
+    "CCFW":"LSU ",
+    "USATodayPoll":"Florida St ",
+    "APPoll":"Georgia "
+  },
+  {
+    "CCFW":"Notre Dame",
+    "USATodayPoll":"Notre Dame",
+    "APPoll":"LSU"
+  },
+  {
+    "CCFW":"UCLA",
+    "USATodayPoll":"LSU",
+    "APPoll":"UCLA "
+  },
+  {
+    "CCFW":"Oklahoma ",
+    "USATodayPoll":"Clemson",
+    "APPoll":"Florida St"
+  },
+  {
+    "CCFW":"Alabama",
+    "USATodayPoll":"UCLA",
+    "APPoll":"Clemson"
+  },
+  {
+    "CCFW":"Florida St ",
+    "USATodayPoll":"Alabama",
+    "APPoll":"Alabama "
+  },
+  {
+    "CCFW":"Oregon",
+    "USATodayPoll":"Oregon",
+    "APPoll":"Oregon"
+  },
+  {
+    "CCFW":"Clemson",
+    "USATodayPoll":"Oklahoma",
+    "APPoll":"Texas A&M "
+  },
+  {
+    "CCFW":"Texas A&M ",
+    "USATodayPoll":"Texas A&M ",
+    "APPoll":"Oklahoma"
+  },
+  {
+    "CCFW":"Kansas St",
+    "USATodayPoll":"Arizona ",
+    "APPoll":"Arizona"
+  },
+  {
+    "CCFW":"Arizona",
+    "USATodayPoll":"Utah",
+    "APPoll":"Northwestern"
+  },
+  {
+    "CCFW":"Northwestern",
+    "USATodayPoll":"USC",
+    "APPoll":"Utah"
+  },
+  {
+    "CCFW":"Georgia Tech",
+    "USATodayPoll":"Northwestern",
+    "APPoll":"USC "
+  },
+  {
+    "CCFW":"Stanford ",
+    "USATodayPoll":"Georgia Tech ",
+    "APPoll":"Georgia Tech"
+  },
+  {
+    "CCFW":"USC ",
+    "USATodayPoll":"Wisconsin",
+    "APPoll":"Stanford"
+  },
+  {
+    "CCFW":"Wisconsin",
+    "USATodayPoll":"Oklahoma St ",
+    "APPoll":"Wisconsin "
+  },
+  {
+    "CCFW":"California ",
+    "USATodayPoll":"Missouri",
+    "APPoll":"BYU"
+  },
+  {
+    "CCFW":"Utah ",
+    "USATodayPoll":"Stanford",
+    "APPoll":"Oklahoma St"
+  },
+  {
+    "CCFW":"BYU",
+    "USATodayPoll":"Auburn",
+    "APPoll":"Missouri"
+  },
+  {
+    "CCFW":"W. Virginia",
+    "USATodayPoll":"W. Virginia ",
+    "APPoll":"Miss St Temple"
+  },
+  {
+    "CCFW":"Tennessee",
+    "USATodayPoll":"BYU",
+    "APPoll":"W. Virginia"
+  },
+  {
+    "CCFW":"Texas Tech",
+    "USATodayPoll":"Miami, FL ",
+    "APPoll":"Tennessee"
+  },
+  {
+    "CCFW":"Memphis",
+    "USATodayPoll":"Tennessee ",
+    "APPoll":"California"
+  },
+  {
+    "CCFW":"Florida",
+    "USATodayPoll":"Kansas St ",
+    "APPoll":"Toledo"
+  }
+]

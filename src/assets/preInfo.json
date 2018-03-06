@@ -1,0 +1,532 @@
+{
+    "currentWeek": 14,
+    "prePostConf": [
+        {
+            "ConfName": "Atlantic Coast Conference",
+            "NumDivisions": 2,
+            "Divisions": ["Atlantic", "Coastal"],
+            "Champ": "Clemson",
+            "Ranks": [
+                {"A": ["#1", "Clemson", "11 - 1", "7 - 1"], "B": ["#1", "Miami, FL", "10 - 2", "7 - 1"]}, 
+                {"A": ["#2", "Florida St.", "9 - 3", "7 - 1"], "B": ["#2", "Virginia Tech", "10 - 2", "6 - 2"]},
+                {"A": ["#3", "Louisville", "10 - 2", "6 - 2"], "B": ["#3", "N. Carolina", "6 - 6", "3 - 5"]}, 
+                {"A": ["#4", "N.C. St.", "9 - 3", "6 - 2"], "B": ["#4", "Pittsburgh", "5 - 7", "3 - 5"]},
+                {"A": ["#5", "Wake Forest", "5 - 7", "2 - 6"], "B": ["#5", "Virginia", "4 - 8", "2 - 6"]},
+                {"A": ["#6", "Syracuse", "3 - 9", "2 - 6"], "B": ["#6", "Georgia Tech", "4 - 8", "2 - 6"]},
+                {"A": ["#7", "B. College", "2 - 10", "0 - 8"], "B": ["#7", "Duke", "3 - 9", "1 - 7"]}
+            ]   
+        },
+        {
+            "ConfName": "Big Ten Conference",
+            "NumDivisions": 2,
+            "Divisions":["Leaders", "Legends"],
+            "Champ": "Ohio St.",
+            "Ranks": [
+                {"A": ["#1", "Ohio St.", "12 - 0", "9 - 0"], "B": ["#1", "Wisconsin", "12 - 0", "9 - 0"]}, 
+                {"A": ["#2", "Penn St.", "11 - 1", "8 - 1"], "B": ["#2", "Northwestern", "9 - 3", "6 - 3"]},
+                {"A": ["#3", "Indiana", "9 - 3", "6 - 3"], "B": ["#3", "Iowa", "8 - 4", "5 - 4"]}, 
+                {"A": ["#4", "Michigan", "8 - 4", "5 - 4"], "B": ["#4", "Minnesota", "7 - 5", "5 - 4"]},
+                {"A": ["#5", "Michigan St.", "3 - 9", "2 - 7"], "B": ["#5", "Nebraska", "6 - 6", "4 - 5"]},
+                {"A": ["#6", "Maryland", "3 - 9", "1 - 8"], "B": ["#6", "Illinois", "3 - 9", "2 - 7"]},
+                {"A": ["#7", "Rutgers", "2 - 10", "1 - 8"], "B": ["#7", "Purdue", "1 - 11", "1 - 8"]}
+            ]                 
+        },
+        {
+            "ConfName": "Big 12 Conference",
+            "NumDivisions": 1,
+            "Champ": "Oklahoma",
+            "Ranks": [
+                ["#1", "Oklahoma", "11 - 1", "9 - 0"],
+                ["#2", "TCU", "10 - 2", "7 - 2"],
+                ["#3", "Oklahoma St.", "10 - 2", "7 - 2"],
+                ["#4", "Kansas St.", "10 - 2", "7 - 2"],
+                ["#5", "Baylor", "8 - 4", "5 - 4"],
+                ["#6", "Texas", "6 - 6", "4 - 4"],
+                ["#7", "W. Virginia", "5 - 7", "3 - 6"],
+                ["#8", "Texas Tech", "3 - 9", "2 - 7"],
+                ["#9", "Iowa St.", "3 - 9", "2 - 7"],
+                ["#10", "Kansas", "1 - 11", "0 - 9"]
+            ]
+        },
+        {
+            "ConfName": "American Athletic Conference",
+            "NumDivisions": 2,
+            "Divisions":["East", "West"],
+            "Champ": "Houston",
+            "Ranks": [
+                {"A": ["#1", "S. Florida", "11 - 1", "7 - 1"], "B": ["#1", "Houston", "11 - 1", "7 - 1"]}, 
+                {"A": ["#2", "Temple", "9 - 3", "6 - 2"], "B": ["#2", "Memphis", "10 - 2", "7 - 1"]},
+                {"A": ["#3", "UCF", "4 - 8", "2 - 6"], "B": ["#3", "Tulsa", "8 - 4", "5 - 3"]}, 
+                {"A": ["#4", "Cincinnati", "4 - 8", "2 - 6"], "B": ["#4", "Navy", "6 - 6", "4 - 4"]},
+                {"A": ["#5", "E. Carolina", "3 - 9", "2 - 6"], "B": ["#5", "SMU", "3 - 9", "3 - 5"]},
+                {"A": ["#6", "Connecticut", "3 - 9", "2 - 6"], "B": ["#6", "Tulane", "2 - 10", "2 - 6"]}
+            ]                 
+        },
+        {
+            "ConfName": "Conference USA",
+            "NumDivisions": 2,
+            "Divisions":["East", "West"],
+            "Champ": "Western Kentucky",
+            "Ranks": [
+                {"A": ["#1", "W. Kentucky", "12 - 0", "8 - 0"], "B": ["#1", "So. Miss", "9 - 3", "7 - 1"]}, 
+                {"A": ["#2", "M. Tennessee", "11 - 1", "7 - 1"], "B": ["#2", "La Tech", "9 - 3", "6 - 2"]},
+                {"A": ["#3", "Old Dominion", "7 - 5", "5 - 3"], "B": ["#3", "UTSA", "6 - 6", "4 - 4"]}, 
+                {"A": ["#4", "Marshall", "6 - 6", "4 - 4"], "B": ["#4", "UAB", "4 - 8", "2 - 6"]},
+                {"A": ["#5", "Florida-Atl", "6 - 6", "4 - 4"], "B": ["#5", "N. Texas", "3 - 9", "2 - 6"]},
+                {"A": ["#6", "Florida-Intl", "4 - 8", "3 - 5"], "B": ["#6", "UTEP", "3 - 9", "2 - 6"]},
+                {"A": ["#7", "Charlotte", "1 - 11", "0 - 8"], "B": ["#7", "Rice", "2 - 10", "2 - 6"]}
+            ]                 
+        },
+        {
+            "ConfName": "Mid-American Conference",
+            "NumDivisions": 2,
+            "Divisions":["East", "West"],
+            "Champ": "Western Michigan",
+            "Ranks": [
+                {"A": ["#1", "Ohio", "10 - 2", "7 - 1"], "B": ["#1", "W. Michigan", "11 - 1", "8 - 0"]}, 
+                {"A": ["#2", "Miami, OH", "8 - 4", "6 - 2"], "B": ["#2", "Toledo", "10 - 2", "7 - 1"]},
+                {"A": ["#3", "B. Green", "7 - 5", "6 - 2"], "B": ["#3", "C. Michigan", "7 - 5", "5 - 3"]}, 
+                {"A": ["#4", "Akron", "5 - 7", "3 - 5"], "B": ["#4", "N. Illinois", "5 - 7", "4 - 4"]},
+                {"A": ["#5", "Buffalo", "3 - 9", "2 - 6"], "B": ["#5", "E. Michigan", "4 - 8", "2 - 6"]},
+                {"A": ["#6", "Kent St.", "2 - 10", "1 - 7"], "B": ["#6", "Ball St.", "2 - 10", "1 - 7"]}
+            ]                 
+        },
+        {
+            "ConfName": "Mountain West Conference",
+            "NumDivisions": 2,
+            "Divisions":["West", "Mountain"],
+            "Champ": "San Diego St.",
+            "Ranks": [
+                {"A": ["#1", "San Diego St.", "11 - 1", "7 - 1"], "B": ["#1", "Boise St.", "9 - 3", "7 - 1"]}, 
+                {"A": ["#2", "Nevada", "5 - 7", "6 - 2"], "B": ["#2", "Colorado St.", "8 - 4", "6 - 2"]},
+                {"A": ["#3", "San Jose St.", "5 - 8", "5 - 3"], "B": ["#3", "N. Mexico", "7 - 5", "5 - 3"]}, 
+                {"A": ["#4", "UNLV", "4 - 8", "5 - 3"], "B": ["#4", "Air Force", "7 - 5", "5 - 3"]},
+                {"A": ["#5", "Fresno St.", "3 - 9", "4 - 4"], "B": ["#5", "Wyoming", "6 - 6", "4 - 4"]},
+                {"A": ["#6", "Hawaii", "1 - 11", "1 - 7"], "B": ["#6", "Utah St.", "3 - 9", "1 - 7"]}
+            ]                 
+        },
+        {
+            "ConfName": "Sun Belt Conference",
+            "NumDivisions": 1,
+            "Champ": "Appalachian St.",
+            "Ranks": [
+                ["#1", "Appalachian St.", "11 - 1", "8 - 0"],
+                ["#2", "Troy", "10 - 2", "7 - 1"],
+                ["#3", "Arkansas St.", "10 - 2", "7 - 1"],
+                ["#4", "Georgia St.", "7 - 5", "5 - 3"],
+                ["#5", "Idaho", "6 - 6", "4 - 4"],
+                ["#6", "C. Carolina", "6 - 6", "3 - 5"],
+                ["#7", "Georgia So.", "5 - 7", "4 - 4"],
+                ["#8", "La-Lafayette", "5 - 7", "4 - 4"],
+                ["#9", "S. Alabama", "4 - 8", "3 - 5"],
+                ["#10", "N. Mex. St.", "3 - 9", "2 - 6"],
+                ["#11", "Texas St.", "2 - 10", "1 - 7"],
+                ["#12", "La-Monroe", "1 - 11", "1 - 7"]
+            ]
+        },
+        {
+            "ConfName": "Pac 12 Conference",
+            "NumDivisions": 2,
+            "Divisions":["North", "South"],
+            "Champ": "Washington",
+            "Ranks": [
+                {"A": ["#1", "Washington", "12 - 0", "9 - 0"], "B": ["#1", "USC", "11 - 1", "8 - 1"]}, 
+                {"A": ["#2", "Washington St.", "10 - 2", "7 - 2"], "B": ["#2", "Colorado", "8 - 4", "5 - 4"]},
+                {"A": ["#3", "Oregon", "10 - 2", "7 - 2"], "B": ["#3", "Utah", "5 - 7", "3 - 6"]}, 
+                {"A": ["#4", "Stanford", "9 - 3", "6 - 3"], "B": ["#4", "UCLA", "5 - 7", "3 - 6"]},
+                {"A": ["#5", "California", "3 - 9", "2 - 7"], "B": ["#5", "Arizona St.", "5 - 7", "3 - 6"]},
+                {"A": ["#6", "Oregon St.", "1 - 11", "0 - 9"], "B": ["#6", "Arizona", "3 - 9", "1 - 8"]}
+            ]                 
+        },
+        {
+            "ConfName": "Southeastern Conference",
+            "NumDivisions": 2,
+            "Divisions":["East", "West"],
+            "Champ": "Alabama",
+            "Ranks": [
+                {"A": ["#1", "Georgia", "9 - 3", "7 - 1"], "B": ["#1", "Alabama", "12 - 0", "8 - 0"]}, 
+                {"A": ["#2", "Florida", "9 - 3", "6 - 2"], "B": ["#2", "Auburn", "10 - 2", "7 - 1"]},
+                {"A": ["#3", "Tennessee", "8 - 4", "4 - 4"], "B": ["#3", "LSU", "8 - 4", "4 - 4"]}, 
+                {"A": ["#4", "Missouri", "7 - 5", "3 - 5"], "B": ["#4", "Texas A&M", "6 - 6", "3 - 5"]},
+                {"A": ["#5", "Kentucky", "6 - 6", "4 - 4"], "B": ["#5", "Mississippi", "6 - 6", "3 - 5"]},
+                {"A": ["#6", "S. Carolina", "5 - 7", "3 - 5"], "B": ["#6", "Mississippi St.", "6 - 6", "3 - 5"]},
+                {"A": ["#7", "Vanderbilt", "2 - 10", "1 - 7"], "B": ["#7", "Arkansas", "6 - 6", "2 - 6"]}
+            ]                 
+        },
+        {
+            "ConfName": "Independents",
+            "NumDivisions": 1,
+            "Ranks": [
+                ["#1", "Notre Dame", "10 - 2"],
+                ["#2", "BYU", "10 - 3"],
+                ["#3", "Army", "8 - 4"],
+                ["#4", "Massachusetts", "3 - 9"]
+            ]
+        }
+    ],
+    
+    "prePost30": [
+        ["#1", "Alabama", "13 - 0"],["#2", "Ohio St.", "13 - 0"], ["#3", "Washington", "13 - 0"], ["#4", "Oklahoma", "12 - 1"], ["#5", "Clemson", "12 - 1"],
+        ["#6", "Wisconsin", "12 - 1"], ["#7", "USC", "11 - 2"], ["#8", "Penn St.", "11 - 1"], ["#9", "Auburn", "10 - 2"], ["#10", "Washington St.", "10 - 2"],
+        ["#11", "Notre Dame", "10 - 2"], ["#12", "W. Kentucky", "13 - 0"], ["#13", "San Diego St.", "12 - 1"], ["#14", "W. Michigan", "12 - 1"], ["#15", "Memphis", "11 - 1"],
+        ["#16", "TCU", "10 - 3"], ["#17", "Houston", "11 - 1"], ["#18", "Appalacian St.", "11 - 1"], ["#19", "Louisville", "10 - 2"],
+        ["#20", "Oklahoma St.", "10 - 2"], ["#21", "Kansas St.", "10 - 2"], ["#22", "Oregon", "10 - 2"], ["#23", "Florida St.", "9 - 3"],
+        ["#24", "MTSU", "11 - 1"], ["#25", "Virginia Tech", "10 - 2"], ["#26", "Stanford", "9 - 3"], ["#27", "Miami, FL", "10 - 3"], ["#28", "Toledo", "10 - 2"],
+        ["#29", "N.C. St.", "9 - 3"], ["#30", "Georgia", "9 - 4"]
+        ],
+    
+    "preRankings": [
+    {
+      "num1": 1,
+      "col1": "Alabama",
+      "num2": 45,
+      "col2": "Troy",
+      "num3": 88,
+      "col3": "California"
+    },
+    {
+      "num1": 2,
+      "col1": "Ohio St.",
+      "num2": 46,
+      "col2": "Arkansas",
+      "num3": 89,
+      "col3": "San Jose St."
+    },
+    {
+      "num1": 3,
+      "col1": "Washington",
+      "num2": 47,
+      "col2": "Utah",
+      "num3": 90,
+      "col3": "Georgia So."
+    },
+    {
+      "num1": 4,
+      "col1": "Oklahoma",
+      "num2": 48,
+      "col2": "Miss St.",
+      "num3": 91,
+      "col3": "Akron"
+    },
+    {
+      "num1": 5,
+      "col1": "Clemson",
+      "num2": 49,
+      "col2": "Missouri",
+      "num3": 92,
+      "col3": "Florida-Atl"
+    },
+    {
+      "num1": 6,
+      "col1": "TCU",
+      "num2": 50,
+      "col2": "Arkansas St.",
+      "num3": 93,
+      "col3": "E. Michigan"
+    },
+    {
+      "num1": 7,
+      "col1": "USC",
+      "num2": 51,
+      "col2": "Kentucky",
+      "num3": 94,
+      "col3": "Arizona"
+    },
+    {
+      "num1": 8,
+      "col1": "Auburn",
+      "num2": 52,
+      "col2": "UCLA",
+      "num3": 95,
+      "col3": "N. Illinois"
+    },
+    {
+      "num1": 9,
+      "col1": "Wisconsin",
+      "num2": 53,
+      "col2": "Wake Forest",
+      "num3": 96,
+      "col3": "Idaho"
+    },
+    {
+      "num1": 10,
+      "col1": "Florida St.",
+      "num2": 54,
+      "col2": "Temple",
+      "num3": 97,
+      "col3": "Connecticut"
+    },
+    {
+      "num1": 11,
+      "col1": "Washington St.",
+      "num2": 55,
+      "col2": "Mississippi",
+      "num3": 98,
+      "col3": "C. Carolina"
+    },
+    {
+      "num1": 12,
+      "col1": "Notre Dame",
+      "num2": 56,
+      "col2": "S. Carolina",
+      "num3": 99,
+      "col3": "Cincinnati"
+    },
+    {
+      "num1": 13,
+      "col1": "Stanford",
+      "num2": 57,
+      "col2": "Arizona St.",
+      "num3": 100,
+      "col3": "Massachusetts"
+    },
+    {
+      "num1": 14,
+      "col1": "Louisville",
+      "num2": 58,
+      "col2": "W. Virginia",
+      "num3": 101,
+      "col3": "UCF"
+    },
+    {
+      "num1": 15,
+      "col1": "Penn St.",
+      "num2": 59,
+      "col2": "Air Force",
+      "num3": 102,
+      "col3": "UNLV"
+    },
+    {
+      "num1": 16,
+      "col1": "Georgia",
+      "num2": 60,
+      "col2": "Pittsburgh",
+      "num3": 103,
+      "col3": "SMU"
+    },
+    {
+      "num1": 17,
+      "col1": "W. Kentucky",
+      "num2": 61,
+      "col2": "So Miss",
+      "num3": 104,
+      "col3": "UTSA"
+    },
+    {
+      "num1": 18,
+      "col1": "Oklahoma St.",
+      "num2": 62,
+      "col2": "Minnesota",
+      "num3": 105,
+      "col3": "Maryland"
+    },
+    {
+      "num1": 19,
+      "col1": "Miami, FL",
+      "num2": 63,
+      "col2": "Ohio",
+      "num3": 106,
+      "col3": "Tulane"
+    },
+    {
+      "num1": 20,
+      "col1": "Kansas St.",
+      "num2": 64,
+      "col2": "Tulsa",
+      "num3": 107,
+      "col3": "S. Alabama"
+    },
+    {
+      "num1": 21,
+      "col1": "Oregon",
+      "num2": 65,
+      "col2": "Nebraska",
+      "num3": 108,
+      "col3": "S. Florida"
+    },
+    {
+      "num1": 22,
+      "col1": "San Diego St.",
+      "num2": 66,
+      "col2": "Georgia Tech",
+      "num3": 109,
+      "col3": "Oregon St."
+    },
+    {
+      "num1": 23,
+      "col1": "W. Michigan",
+      "num2": 67,
+      "col2": "La Tech",
+      "num3": 110,
+      "col3": "La-Lafayette"
+    },
+    {
+      "num1": 24,
+      "col1": "N.C. State",
+      "num2": 68,
+      "col2": "Navy",
+      "num3": 111,
+      "col3": "E. Carolina"
+    },
+    {
+      "num1": 25,
+      "col1": "Virginia Tech",
+      "num2": 69,
+      "col2": "Colorado St.",
+      "num3": 112,
+      "col3": "Utah St."
+    },
+    {
+      "num1": 26,
+      "col1": "Memphis",
+      "num2": 70,
+      "col2": "N. Mexico",
+      "num3": 113,
+      "col3": "Illinois"
+    },
+    {
+      "num1": 27,
+      "col1": "Florida",
+      "num2": 71,
+      "col2": "Miami, OH",
+      "num3": 114,
+      "col3": "Fresno St."
+    },
+    {
+      "num1": 28,
+      "col1": "Houston",
+      "num2": 72,
+      "col2": "Duke",
+      "num3": 115,
+      "col3": "Florida-Intl"
+    },
+    {
+      "num1": 29,
+      "col1": "LSU",
+      "num2": 73,
+      "col2": "B. Green",
+      "num3": 116,
+      "col3": "N. Mex. St."
+    },
+    {
+      "num1": 30,
+      "col1": "Appalacian St.",
+      "num2": 74,
+      "col2": "Virginia",
+      "num3": 117,
+      "col3": "Kent St."
+    },
+    {
+      "num1": 31,
+      "col1": "Toledo",
+      "num2": 75,
+      "col2": "Vanderbilt",
+      "num3": 118,
+      "col3": "UTEP"
+    },
+    {
+      "num1": 32,
+      "col1": "Iowa",
+      "num2": 76,
+      "col2": "Iowa St.",
+      "num3": 119,
+      "col3": "Buffalo"
+    },
+    {
+      "num1": 33,
+      "col1": "Colorado",
+      "num2": 77,
+      "col2": "Syracuse",
+      "num3": 120,
+      "col3": "Ball St."
+    },
+    {
+      "num1": 34,
+      "col1": "BYU",
+      "num2": 78,
+      "col2": "C. Michigan",
+      "num3": 121,
+      "col3": "Purdue"
+    },
+    {
+      "num1": 35,
+      "col1": "Michigan",
+      "num2": 79,
+      "col2": "Michigan St.",
+      "num3": 122,
+      "col3": "N. Texas"
+    },
+    {
+      "num1": 36,
+      "col1": "Baylor",
+      "num2": 80,
+      "col2": "Marshall",
+      "num3": 123,
+      "col3": "Hawaii"
+    },
+    {
+      "num1": 37,
+      "col1": "Tennessee",
+      "num2": 81,
+      "col2": "Army",
+      "num3": 124,
+      "col3": "UAB"
+    },
+    {
+      "num1": 38,
+      "col1": "Utah",
+      "num2": 82,
+      "col2": "Old Dominion",
+      "num3": 125,
+      "col3": "Rice"
+    },
+    {
+      "num1": 39,
+      "col1": "Indiana",
+      "num2": 83,
+      "col2": "Texas Tech",
+      "num3": 126,
+      "col3": "Rutgers"
+    },
+    {
+      "num1": 40,
+      "col1": "Texas A&M",
+      "num2": 84,
+      "col2": "Georgia St.",
+      "num3": 127,
+      "col3": "La-Monroe"
+    },
+    {
+      "num1": 41,
+      "col1": "Boise St.",
+      "num2": 85,
+      "col2": "Nevada",
+      "num3": 128,
+      "col3": "Texas St."
+    },
+    {
+      "num1": 42,
+      "col1": "MTSU",
+      "num2": 86,
+      "col2": "Wyoming",
+      "num3": 129,
+      "col3": "Kansas"
+    },
+    {
+      "num1": 43,
+      "col1": "Texas",
+      "num2": 87,
+      "col2": "California",
+      "num3": 130,
+      "col3": "Charlotte"
+    },
+    {
+      "num1": 44,
+      "col1": "N. Carolina",
+      "num2": null,
+      "col2": "",
+      "num3": null,
+      "col3": ""
+    }
+]
+}
