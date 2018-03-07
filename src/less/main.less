@@ -176,6 +176,43 @@ body
         margin-right: 0px;
 }
 
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+
+.row{
+    margin: 0;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#underButtonsLeft{
+    padding: 0;
+    background-image: url('FieldBGsmall.png');
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+}
+
+#underButtonsRight{
+    padding: 0;
+    background-image: url('FieldBGsmall.png');
+    background-size: 100% auto;
+    background-repeat: repeat-y;    
+    
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
 #midOfBody
 {
 	background-color:#F1F1B8;
