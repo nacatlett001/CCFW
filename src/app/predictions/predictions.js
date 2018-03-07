@@ -65,14 +65,12 @@ angular.module( 'ccfw.predictions', [
     $http.get("assets/2017Week" + $scope.currentPredWeek + "P.json")
             .success(function(response){
                 $scope.homeTeams = response;
-                console.log($scope.homeTeams);
             });
             
     $scope.$watch(function(){ return $scope.currentPredWeek; }, function() {
         $http.get("assets/2017Week" + $scope.currentPredWeek + "P.json")
             .success(function(response) {
                 $scope.homeTeams = response;
-                console.log($scope.homeTeams);
             });
     });
     

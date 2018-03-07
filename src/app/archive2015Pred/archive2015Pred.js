@@ -32,14 +32,12 @@ angular.module( 'ccfw.archive2015Pred', [
     $http.get("assets/archive/2015Week" + $scope.currentPredWeek + "P.json")
             .success(function(response){
                 $scope.homeTeams = response;
-                console.log($scope.homeTeams);
             });
             
     $scope.$watch(function(){ return $scope.currentPredWeek; }, function() {
         $http.get("assets/archive/2015Week" + $scope.currentPredWeek + "P.json")
             .success(function(response) {
                 $scope.homeTeams = response;
-                console.log($scope.homeTeams);
             });
     });
     
