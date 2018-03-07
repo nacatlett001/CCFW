@@ -9,6 +9,10 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-115355422-1');
+            
+            window.addEventListener('hashchange', function(){
+                gtag('config', 'UA-115355422-1', {'page_path': location.href.split('#')[1]});
+            });
         </script>
 
         
