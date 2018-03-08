@@ -49,30 +49,36 @@ angular.module( 'ccfw.predictions', [
     bodyHeight();
             
     $scope.currentPredWeek;
-    if($scope.currentWeek === 'Preseason'){
-        $scope.currentPredWeek = 1;
-    }
-    else if($scope.currentWeek === 14){
-        $scope.currentPredWeek = 'Bowls';
-    }
-    else{
-        $scope.currentPredWeek = $scope.currentWeek + 1;
-    }
-    
+    $scope.currentWeek;
     $scope.homeTeams;
     $scope.sortBy = "HomeTeam";
     
-    $http.get("assets/2017Week" + $scope.currentPredWeek + "P.json")
-            .success(function(response){
-                $scope.homeTeams = response;
-            });
-            
     $scope.$watch(function(){ return $scope.currentPredWeek; }, function() {
         $http.get("assets/2017Week" + $scope.currentPredWeek + "P.json")
             .success(function(response) {
                 $scope.homeTeams = response;
             });
     });
+    
+    $http.get("assets/currentWeek.json")
+            .success(function(response){
+                $scope.currentWeek = response.currentWeek;
+                
+                if($scope.currentWeek === 'Preseason'){
+                    $scope.currentPredWeek = 1;
+                }
+                else if($scope.currentWeek === 14){
+                    $scope.currentPredWeek = 'Bowls';
+                }
+                else{
+                    $scope.currentPredWeek = $scope.currentWeek + 1;
+                }
+            });
+    
+    //$http.get("assets/2017Week" + $scope.currentPredWeek + "P.json")
+    //        .success(function(response){
+    //            $scope.homeTeams = response;
+    //        });
     
     $scope.gotoTop = function(nextChoice){
         $scope.currentPredWeek = nextChoice;

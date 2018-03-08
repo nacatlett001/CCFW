@@ -30,13 +30,9 @@ angular.module( 'ccfw', [
     }
   });
   
-  
-  $scope.currentWeek;
-  
   $scope.preInfo;
   $http.get("assets/preInfo.json").success(function(response){
         $scope.preInfo = response;
-        $scope.currentWeek = response.currentWeek;
   });
 });
 

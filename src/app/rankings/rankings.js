@@ -24,20 +24,22 @@ angular.module( 'ccfw.rankings', [
     
     bodyHeight();
     
-    $scope.currentRankWeek = $scope.currentWeek;
+    $scope.currentRankWeek;
+    $scope.currentWeek;
     $scope.ranks;
     
-    $http.get("assets/2017Week" + $scope.currentRankWeek + "R.json")
-            .success(function(response){
-                $scope.ranks = response;
-            });
-            
     $scope.$watch(function(){ return $scope.currentRankWeek; }, function() {
         $http.get("assets/2017Week" + $scope.currentRankWeek + "R.json")
             .success(function(response) {
                 $scope.ranks = response;
             });
     });
+    
+    $http.get("assets/currentWeek.json")
+            .success(function(response){
+                $scope.currentWeek = response.currentWeek;
+                $scope.currentRankWeek = $scope.currentWeek;
+            });
     
     $scope.gotoTop = function(nextChoice){
         $scope.currentRankWeek = nextChoice;
