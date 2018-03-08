@@ -24,20 +24,20 @@ angular.module( 'ccfw.archive2016Ranks', [
     
     bodyHeight();
     
-    $scope.currentRankWeek = "Preseason";
+    $scope.currentRankWeek;
     $scope.ranks;
-    
-    $http.get("assets/archive/2016Week" + $scope.currentRankWeek + "R.json")
-            .success(function(response){
-                $scope.ranks = response;
-            });
             
     $scope.$watch(function(){ return $scope.currentRankWeek; }, function() {
-        $http.get("assets/archive/2016Week" + $scope.currentRankWeek + "R.json")
-            .success(function(response) {
-                $scope.ranks = response;
+        $http.get("assets/archive/2016Week" + $scope.currentRankWeek + "R.json").then(
+            function(response){
+                $scope.ranks = response.data;
+            },
+            function(error){
+                console.log("Failed to retrieve 2016Week" + $scope.currentRankWeek + "R.json");
             });
     });
+    
+    $scope.currentRankWeek = "Preseason";
     
     $scope.gotoTop = function(nextChoice){
         $scope.currentRankWeek = nextChoice;

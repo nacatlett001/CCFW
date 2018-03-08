@@ -16,23 +16,28 @@ angular.module( 'ccfw', [
   'ui.router'
 ])
 
-.config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {
+.config( function myAppConfig ( $stateProvider, $urlRouterProvider, $locationProvider ) {
+  $locationProvider.hashPrefix('');
   $urlRouterProvider.otherwise( '/home' );
 })
 
 .run( function run () {
 })
 
-.controller( 'AppCtrl', function AppCtrl ( $scope, $location, $http ) {
-  $scope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams){
-    if ( angular.isDefined( toState.data.pageTitle ) ) {
-      $scope.pageTitle = toState.data.pageTitle + ' | CCFW' ;
-    }
+.controller( 'AppCtrl', function AppCtrl ( $scope, $location, $http, $transitions ) {
+  $transitions.onSuccess({}, function($transition){
+        if(angular.isDefined($transition.$to().data.pageTitle)){
+            $scope.pageTitle = $transition.$to().data.pageTitle + " | CCFW";
+        }
   });
   
   $scope.preInfo;
-  $http.get("assets/preInfo.json").success(function(response){
-        $scope.preInfo = response;
-  });
+  $http.get("assets/preInfo.json").then(
+    function(response){
+      $scope.preInfo = response.data;
+    }, 
+    function(error){
+      console.log("Failed to retrieve preInfo.json");
+    });
 });
 

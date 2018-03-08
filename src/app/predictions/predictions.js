@@ -54,31 +54,32 @@ angular.module( 'ccfw.predictions', [
     $scope.sortBy = "HomeTeam";
     
     $scope.$watch(function(){ return $scope.currentPredWeek; }, function() {
-        $http.get("assets/2017Week" + $scope.currentPredWeek + "P.json")
-            .success(function(response) {
-                $scope.homeTeams = response;
+        $http.get("assets/2017Week" + $scope.currentPredWeek + "P.json").then(
+            function(response){
+                $scope.homeTeams = response.data;
+            },
+            function(error){
+                console.log("Failed to retrieve 2017Week" + $scope.currentPredWeek + "P.json");
             });
     });
     
-    $http.get("assets/currentWeek.json")
-            .success(function(response){
-                $scope.currentWeek = response.currentWeek;
-                
-                if($scope.currentWeek === 'Preseason'){
-                    $scope.currentPredWeek = 1;
-                }
-                else if($scope.currentWeek === 14){
-                    $scope.currentPredWeek = 'Bowls';
-                }
-                else{
-                    $scope.currentPredWeek = $scope.currentWeek + 1;
-                }
-            });
-    
-    //$http.get("assets/2017Week" + $scope.currentPredWeek + "P.json")
-    //        .success(function(response){
-    //            $scope.homeTeams = response;
-    //        });
+    $http.get("assets/currentWeek.json").then(
+        function(response){
+            $scope.currentWeek = response.data.currentWeek;
+
+            if($scope.currentWeek === 'Preseason'){
+                $scope.currentPredWeek = 1;
+            }
+            else if($scope.currentWeek === 14){
+                $scope.currentPredWeek = 'Bowls';
+            }
+            else{
+                $scope.currentPredWeek = $scope.currentWeek + 1;
+            }
+        },
+        function(error){
+            console.log("Failed to retrieve currentWeek.json");
+        });
     
     $scope.gotoTop = function(nextChoice){
         $scope.currentPredWeek = nextChoice;

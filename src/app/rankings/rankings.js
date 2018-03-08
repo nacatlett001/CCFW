@@ -29,17 +29,23 @@ angular.module( 'ccfw.rankings', [
     $scope.ranks;
     
     $scope.$watch(function(){ return $scope.currentRankWeek; }, function() {
-        $http.get("assets/2017Week" + $scope.currentRankWeek + "R.json")
-            .success(function(response) {
-                $scope.ranks = response;
+        $http.get("assets/2017Week" + $scope.currentRankWeek + "R.json").then(
+            function(response){
+                $scope.ranks = response.data;
+            },
+            function(error){
+                console.log("Failed to retrieve 2017Week" + $scope.currentRankWeek + "R.json");
             });
     });
     
-    $http.get("assets/currentWeek.json")
-            .success(function(response){
-                $scope.currentWeek = response.currentWeek;
-                $scope.currentRankWeek = $scope.currentWeek;
-            });
+    $http.get("assets/currentWeek.json").then(
+        function(response){
+            $scope.currentWeek = response.data.currentWeek;
+            $scope.currentRankWeek = $scope.currentWeek;
+        },
+        function(error){
+            console.log("Failed to retrieve currentWeek.json");
+        });
     
     $scope.gotoTop = function(nextChoice){
         $scope.currentRankWeek = nextChoice;

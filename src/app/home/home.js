@@ -50,8 +50,12 @@ angular.module( 'ccfw.home', [
             
     $scope.blogs;
     
-    $http.get("assets/blogs.json").success(function(response){
-        $scope.blogs = response.blogs;
-    });
+    $http.get("assets/blogs.json").then(
+        function(response){
+            $scope.blogs = response.data.blogs;
+        },
+        function(error){
+            console.log("Failed to retrieve blogs.json");
+        });
 });
 

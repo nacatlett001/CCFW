@@ -28,12 +28,15 @@ angular.module( 'ccfw.records', [
     $scope.weeklys;
     $scope.pastYears;
             
-    $http.get("assets/records.json")
-    .success(function(response){
-        $scope.currentYearTotal = response.currentYear[0];
-        $scope.weeklys = response.currentYear[1];
-        $scope.pastYears = response.pastYears;
-    });
+    $http.get("assets/records.json").then(
+        function(response){
+            $scope.currentYearTotal = response.data.currentYear[0];
+            $scope.weeklys = response.data.currentYear[1];
+            $scope.pastYears = response.data.pastYears;
+        },
+        function(error){
+            console.log("Failed to retrieve records.json");
+        });
     
     $scope.gotoWeekly = function(){
         $location.hash("weekly");

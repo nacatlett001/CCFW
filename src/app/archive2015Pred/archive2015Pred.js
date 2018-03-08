@@ -24,22 +24,21 @@ angular.module( 'ccfw.archive2015Pred', [
     
     bodyHeight();
             
-    $scope.currentPredWeek = 1;
-
+    $scope.currentPredWeek;
     $scope.homeTeams;
     $scope.sortBy = "HomeTeam";
-    
-    $http.get("assets/archive/2015Week" + $scope.currentPredWeek + "P.json")
-            .success(function(response){
-                $scope.homeTeams = response;
-            });
             
     $scope.$watch(function(){ return $scope.currentPredWeek; }, function() {
-        $http.get("assets/archive/2015Week" + $scope.currentPredWeek + "P.json")
-            .success(function(response) {
-                $scope.homeTeams = response;
+        $http.get("assets/archive/2015Week" + $scope.currentPredWeek + "P.json").then(
+            function(response){
+                $scope.homeTeams = response.data;
+            },
+            function(error){
+                console.log("Failed to retrieve 2015Week" + $scope.currentPredWeek + "P.json");
             });
     });
+    
+    $scope.currentPredWeek = 1;
     
     $scope.gotoTop = function(nextChoice){
         $scope.currentPredWeek = nextChoice;
